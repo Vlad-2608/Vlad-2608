@@ -1,0 +1,593 @@
+@import url(reset.css);
+@import url(fonts.css);
+
+.header{
+    background-image: url(image/Headaer\ and\ Promo.png);
+    height: 700px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+h3{
+    font-size: 26px;
+    margin-top: 90px;
+    text-align: center;
+    margin-bottom: 35px;
+    font-family: 'Montserrat-Medium';
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.dreamWork{
+    margin-left: 280px;
+    margin-top: 35px;
+    display: flex;
+}
+
+.step1{
+    background-image: url(image/Step\ 1.png);
+    width: 300px;
+    height: 400px;
+    margin-right: 20px;
+}
+
+.step2{
+    background-image: url(image/Step\ 2.png);
+    width: 300px;
+    height: 400px;
+    margin-right: 20px;
+}
+
+.step3{
+    background-image: url(image/Step\ 3.png);
+    width: 300px;
+    height: 400px;
+}
+
+.partner{
+    margin-left: 300px;
+    display: flex;
+}
+
+.person1{
+    background-image: url(image/Person1.png);
+    width: 221px;
+    height: 205px;
+    margin-right: 19px;
+}
+
+.person2{
+    background-image: url(image/Person2.png);
+    width: 221px;
+    height: 205px;
+    margin-right: 19px;
+}
+
+.person3{
+    background-image: url(image/Person3.png);
+    width: 221px;
+    height: 224px;
+    margin-right: 19px;
+}
+
+.person4{
+    background-image: url(image/Person4.png);
+    width: 221px;
+    height: 224px;
+}
+
+.buttom{
+    width: 180px;
+    height: 40px;
+    border: 2px solid #FF4E50;
+    border-radius: 40px;   
+    margin-top: 35px;
+    margin-left: 680px;
+}
+
+.textButtom{
+    font-size: 14px;
+    line-height: 40px;
+    display: flex;
+    justify-content: center;
+    color: #FF4E50;
+    font-family: 'Montserrat-Medium';
+}
+
+.holidayIdeas{
+    width: 940px;
+    height: 330px;
+    margin-left: 300px;
+    display: flex;
+}
+
+.Sport{
+    background-image: url(image/Sport.png);
+    width: 300px;
+    height: 310px;
+    margin-right: 20px;
+}
+
+.Healath{
+    background-image: url(image/Healath.png);
+    width: 300px;
+    height: 310px;
+    margin-right: 20px;
+
+}
+
+.Extreme{
+    background-image: url(image/Extreme.png);
+    width: 300px;
+    height: 310px;
+}
+
+.Games{
+    background-image: url(image/Games.png);
+    width: 300px;
+    height: 310px;
+    margin-right: 20px;
+
+}
+
+.Culture{
+    background-image: url(image/Culture.png);
+    width: 620px;
+    height: 310px;
+}
+
+.CultureCopy{
+    background-image: url(image/Culture\ Copy.png);
+    width: 620px;
+    height: 310px;
+    margin-right: 20px;
+
+}
+
+.Traveling{
+    background-image: url(image/Games\ Copy.png);
+    width: 300px;
+    height: 310px;
+}
+
+h2{
+    font-size: 18px;
+    text-align: center;
+    color: #666666;
+    font-family: 'Roboto-Light';
+}
+
+.blockSearch{
+    width: 482px;
+    height: 40px;
+    margin-top: 25px;
+    display: flex;
+    margin-left: 35%;
+}
+
+input[type="text"]:valid{
+    width: 299px;
+    height: 40px;
+    border: 1px solid #D4D4D4;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.073313);
+    border-radius: 3px;
+}
+
+input[placeholder="Enter your insterests"]:valid{
+    font-size: 14px;
+    color: #999999;
+    font-family: 'Roboto-Light';
+}
+
+.buttomSearch{
+    width: 172.12px;
+    height: 40px;
+    background: #FF4E50;
+    border-radius: 40px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.typeSearch{
+    font-size: 14px;
+    font-family: 'Montserrat-Medium';
+    color: #FFFFFF;
+}
+
+.footer{
+    background-image: url(image/Footer.png);
+    height: 224px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 768px){
+
+    .header{
+        background-image: url(image/Headaer\ and\ Promo\ 768.png);
+        width: 768px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    h3{
+        font-size: 22px;
+        margin-top: 90px;
+        text-align: center;
+        margin-bottom: 35px;
+        font-family: 'Montserrat-Medium';
+        font-weight: bold;
+    }
+
+    .dreamWork{
+        margin-left: 10px;
+        margin-top: 35px;
+        display: flex;
+    }
+    
+    .step1{
+        background-image: url(image/Step\ 1.png);
+        width: 236px;
+        height: 400px;
+        margin-right: 20px;
+    }
+    
+    .step2{
+        background-image: url(image/Step\ 2.png);
+        width: 236px;
+        height: 400px;
+        margin-right: 20px;
+    }
+    
+    .step3{
+        background-image: url(image/Step\ 3.png);
+        width: 236px;
+        height: 400px;
+    }
+
+    .partner{
+        margin-left: 138px;
+        display: block;
+        height: 504px;
+        width: 492px;
+    }
+    
+    .person1{
+        background-image: url(image/Person1.png);
+        width: 236px;
+        height: 205px;
+        margin-right: 20px;
+        float: left;
+    }
+    
+    .person2{
+        background-image: url(image/Person2.png);
+        width: 236px;
+        height: 205px;
+        margin-right: 20px;
+        float: left;
+        margin-top: 75px;
+    }
+    
+    .person3{
+        background-image: url(image/Person3.png);
+        width: 236px;
+        height: 224px;
+        float: right;
+        margin-right: 0;
+        margin-top: -206px;
+    }
+    
+    .person4{
+        background-image: url(image/Person4.png);
+        width: 236px;
+        height: 224px;
+        float: right;
+        margin-top: 54px;
+    }
+
+    .buttom{
+        width: 180px;
+        height: 40px;
+        border: 2px solid #FF4E50;
+        border-radius: 40px;   
+        margin-top: 35px;
+        margin-left: 285px;
+    }
+    
+    .textButtom{
+        font-size: 14px;
+        line-height: 40px;
+        display: flex;
+        justify-content: center;
+        color: #FF4E50;
+        font-family: 'Montserrat-Medium';
+    }
+
+    .holidayIdeas{
+        width: 748px;
+        height: 330px;
+        margin-left: 10px;
+        display: flex;
+    }
+    
+    .Sport{
+        background-image: url(image/Sport\ 768.png);
+        width: 236px;
+        height: 310px;
+        margin-right: 20px;
+    }
+    
+    .Healath{
+        background-image: url(image/Healath\ 768.png);
+        width: 236px;
+        height: 310px;
+        margin-right: 20px;
+    
+    }
+    
+    .Extreme{
+        background-image: url(image/Extreme\ 768.png);
+        width: 236px;
+        height: 310px;
+    }
+    
+    .Games{
+        background-image: url(image/Games\ 768.png);
+        width: 236px;
+        height: 310px;
+        margin-right: 20px;
+    
+    }
+    
+    .Culture{
+        background-image: url(image/Culture\ 768.png);
+        width: 492px;
+        height: 310px;
+    }
+    
+    .CultureCopy{
+        background-image: url(image/Culture\ Copy\ 768.png);
+        width: 492px;
+        height: 310px;
+        margin-right: 20px;
+    
+    }
+    
+    .Traveling{
+        background-image: url(image/Games\ Copy\ 768.png);
+        width: 236px;
+        height: 310px;
+    }
+
+    .blockSearch{
+        width: 482px;
+        height: 40px;
+        margin-top: 25px;
+        display: flex;
+        margin-left: 20%;
+    }
+
+    .footer{
+        background-image: url(image/Footer\ 768.png);
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 100px;
+    }
+
+}
+
+@media screen and (max-width: 320px){
+
+    .header{
+        background-image: url(image/Headaer\ and\ Promo320.png);
+        width: 320px;
+        height: 540px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    h3{
+        font-size: 22px;
+        margin-top: 35px;
+        text-align: center;
+        margin-bottom: 15px;
+        font-family: 'Montserrat-Medium';
+        font-weight: bold;
+    }
+    
+    .dreamWork{
+        margin-left: 10px;
+        margin-top: 15px;
+        display: block;
+    }
+    
+    .step1{
+        background-image: url(image/Step\ 1\ 320.png);
+        width: 300px;
+        height: 240px;
+        margin-right: 20px;
+    }
+    
+    .step2{
+        background-image: url(image/Step\ 2\ 320.png);
+        width: 300px;
+        height: 240px;
+        margin-right: 20px;
+        margin-top: 10px;
+    }
+    
+    .step3{
+        background-image: url(image/Step\ 3\ 320.png);
+        width: 300px;
+        height: 240px;
+        margin-top: 10px;
+    }
+
+    .partner{
+        margin-left: 10px;
+        margin-right: 10px;
+        display: block;
+        height: 900px;
+    }
+    
+    .person1{
+        background-image: url(image/Person1.png);
+        width: 236px;
+        height: 205px;
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+    
+    .person2{
+        background-image: url(image/Person2.png);
+        width: 236px;
+        height: 205px;
+        margin-top: 16px;
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+    
+    .person3{
+        background-image: url(image/Person3.png);
+        width: 236px;
+        height: 205px;
+        margin-top: 16px;
+        margin-left: 32px;
+        margin-right: 32px;
+        float: left;
+    }
+    
+    .person4{
+        background-image: url(image/Person4.png);
+        width: 236px;
+        height: 205px;
+        margin-top: 16px;
+        margin-left: 32px;
+        margin-right: 32px;
+        float: left;
+    }
+    
+    .buttom{
+        width: 280px;
+        height: 40px;
+        border: 2px solid #FF4E50;
+        border-radius: 40px;   
+        margin-top: 35px;
+        margin-left: 20px;
+    }
+    
+    .textButtom{
+        font-size: 14px;
+        color: #FF4E50;
+        font-family: 'Montserrat-Medium';
+    }
+    
+    .holidayIdeas{
+        height: auto;
+        margin-left: 10px;
+        margin-right: 10px;
+        display: grid;
+    }
+    
+    .Sport{
+        background-image: url(image/Sport\ 320.png);
+        width: 300px;
+        height: 120px;
+    }
+    
+    .Healath{
+        background-image: url(image/Healath\ 320.png);
+        width: 300px;
+        height: 120px;
+        margin-top: 10px;
+    }
+    
+    .Extreme{
+        background-image: url(image/Extreme\ 320.png);
+        width: 300px;
+        height: 120px;
+        margin-top: 10px;
+    }
+    
+    .Games{
+        background-image: url(image/Games\ 320.png);
+        width: 300px;
+        height: 120px;
+        margin-top: 10px;
+    }
+    
+    .Culture{
+        background-image: url(image/Culture\ 320.png);
+        width: 300px;
+        height: 120px;
+        margin-top: 10px;
+    }
+    
+    .CultureCopy{
+        background-image: url(image/Culture\ Copy\ 320.png);
+        width: 300px;
+        height: 120px;
+        margin-top: 10px;
+    }
+    
+    .Traveling{
+        background-image: url(image/Games\ Copy\ 320.png);
+        width: 300px;
+        height: 120px;
+        margin-top: 10px;
+    }
+
+    .blockSearch{
+        width: 280px;
+        height: 90px;
+        margin-top: 25px;
+        display: block;
+        margin-left: 20px;
+    }
+    
+    input[type="text"]:valid{
+        width: 280px;
+        height: 40px;
+        border: 1px solid #D4D4D4;
+        box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.073313);
+        border-radius: 3px;
+    }
+    
+    input[placeholder="Enter your insterests"]:valid{
+        font-size: 14px;
+        color: #999999;
+        font-family: 'Roboto-Light';
+    }
+    
+    .buttomSearch{
+        width: 280px;
+        height: 40px;
+        background: #FF4E50;
+        border-radius: 40px;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    
+    .typeSearch{
+        font-size: 14px;
+        font-family: 'Montserrat-Medium';
+        color: #FFFFFF;
+    }
+    
+    .footer{
+        background-image: url(image/Footer\ 320.png);
+        height: 204px;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 40px;
+    }
+
+
+}
+
+
